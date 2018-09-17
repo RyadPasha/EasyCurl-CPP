@@ -1,7 +1,7 @@
 /**
   * Simple usage example
   *
-  * @project: East Curl C++ Wrapper
+  * @project: Easy Curl C++ Wrapper
   * @purpose: This library provides a wrapper of the cURL library in C++
   * @version: 1.7
   *

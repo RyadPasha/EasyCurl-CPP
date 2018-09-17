@@ -2,7 +2,7 @@ CC := g++
 
 PROG := test
 
-OBJECTS := tinycurl.o test.o
+OBJECTS := easycurl.o test.o
 
 CXXFLAGS := -Wall -g -O0
 
@@ -16,7 +16,7 @@ all: ${PROG}
 
 $(PROG): $(OBJECTS)
 
-$(OBJECTS): tinycurl.h
+$(OBJECTS): easycurl.h
 
 .PHONY : clean
 clean:
